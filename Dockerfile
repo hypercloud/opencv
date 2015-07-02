@@ -4,7 +4,7 @@ RUN apt-get update \
 	&& DEBIAN_FRONTEND=noninteractive \
 	apt-get install -y libopencv-dev
 
-RUN apt-get install -y python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
+RUN apt-get install -y python-dev python-numpy python-opencv libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
 
 # Known issue:
 # libdc1394 error: Failed to initialize libdc1394
