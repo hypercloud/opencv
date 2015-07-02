@@ -7,7 +7,7 @@ apt-get install -y build-essential
 # Required packages
 apt-get install -y cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
 # Optional packages
-apt-get install -y python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
+apt-get install -y python-dev python-numpy python-opencv libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
 
 mkdir /usr/local/src/opencv
 cd /usr/local/src/opencv
